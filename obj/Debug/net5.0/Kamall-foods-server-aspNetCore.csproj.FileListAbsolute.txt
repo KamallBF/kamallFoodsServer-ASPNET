@@ -1,0 +1,261 @@
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/appsettings.Development.json
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/appsettings.json
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/libman.json
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.deps.json
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.json
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.dev.json
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/ref/Kamall-foods-server-aspNetCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.pdb
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Elasticsearch.Net.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Google.Protobuf.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Humanizer.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/K4os.Compression.LZ4.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/K4os.Compression.LZ4.Streams.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/K4os.Hash.xxHash.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.ApplicationInsights.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.Logging.ApplicationInsights.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MySql.Data.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Ubiety.Dns.Core.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Zstandard.Net.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MySql.EntityFrameworkCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Nest.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Newtonsoft.Json.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfoInputs.cache
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfo.cs
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.CoreCompileInputs.cache
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cs
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cache
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/staticwebassets/Kamall-foods-server-aspNetCore.StaticWebAssets.Manifest.cache
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/staticwebassets/Kamall-foods-server-aspNetCore.StaticWebAssets.xml
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/scopedcss/bundle/Kamall-foods-server-aspNetCore.styles.css
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.RazorTargetAssemblyInfo.cache
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.CopyComplete
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/ref/Kamall-foods-server-aspNetCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.pdb
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.genruntimeconfig.cache
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MailKit.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MimeKit.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Hangfire.AspNetCore.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Hangfire.Core.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/ca/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/de/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/es/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/fa/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/fr/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/nb/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/nl/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/pt-BR/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/pt-PT/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/pt/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/tr-TR/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/zh-TW/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/zh/Hangfire.Core.resources.dll
+/mnt/c/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Hangfire.MemoryStorage.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/appsettings.json
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/libman.json
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.StaticWebAssets.xml
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.exe
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.deps.json
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.json
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.dev.json
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/ref/Kamall-foods-server-aspNetCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.pdb
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Elasticsearch.Net.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Google.Protobuf.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Hangfire.AspNetCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Hangfire.Core.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Hangfire.MemoryStorage.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Humanizer.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/K4os.Compression.LZ4.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/K4os.Compression.LZ4.Streams.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/K4os.Hash.xxHash.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MailKit.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.ApplicationInsights.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MimeKit.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MySql.Data.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Ubiety.Dns.Core.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Zstandard.Net.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/MySql.EntityFrameworkCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Nest.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Newtonsoft.Json.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/ca/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/de/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/es/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/fa/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/fr/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/nb/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/nl/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/pt-BR/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/pt-PT/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/pt/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/tr-TR/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/zh-TW/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/zh/Hangfire.Core.resources.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfoInputs.cache
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfo.cs
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.CoreCompileInputs.cache
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/scopedcss/bundle/Kamall-foods-server-aspNetCore.styles.css
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/staticwebassets/Kamall-foods-server-aspNetCore.StaticWebAssets.Manifest.cache
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.RazorTargetAssemblyInfo.cache
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.CopyComplete
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/ref/Kamall-foods-server-aspNetCore.dll
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.pdb
+C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.genruntimeconfig.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/appsettings.Development.json
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/appsettings.json
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/libman.json
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.StaticWebAssets.xml
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Kamall-foods-server-aspNetCore
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.deps.json
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.json
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.dev.json
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Kamall-foods-server-aspNetCore.pdb
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Elasticsearch.Net.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Google.Protobuf.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Hangfire.AspNetCore.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Hangfire.Core.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Hangfire.MemoryStorage.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Humanizer.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/K4os.Compression.LZ4.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/K4os.Compression.LZ4.Streams.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/K4os.Hash.xxHash.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/MailKit.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.ApplicationInsights.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.Extensions.Logging.ApplicationInsights.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/MimeKit.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/MySql.Data.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Ubiety.Dns.Core.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Zstandard.Net.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/MySql.EntityFrameworkCore.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Nest.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/ca/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/de/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/es/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/fa/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/fr/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/nb/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/nl/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/pt-BR/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/pt-PT/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/pt/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/tr-TR/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/zh-TW/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/zh/Hangfire.Core.resources.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfoInputs.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfo.cs
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.CoreCompileInputs.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cs
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/scopedcss/bundle/Kamall-foods-server-aspNetCore.styles.css
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/staticwebassets/Kamall-foods-server-aspNetCore.StaticWebAssets.Manifest.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.RazorTargetAssemblyInfo.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.CopyComplete
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/refint/Kamall-foods-server-aspNetCore.dll
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.pdb
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.genruntimeconfig.cache
+/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/Debug/net5.0/ref/Kamall-foods-server-aspNetCore.dll
