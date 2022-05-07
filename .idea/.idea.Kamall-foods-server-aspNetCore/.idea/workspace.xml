@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <workItem from="1651941159410" duration="37000" />
       <workItem from="1651941202337" duration="1240000" />
       <workItem from="1651942823513" duration="1432000" />
-      <workItem from="1651944975794" duration="9245000" />
+      <workItem from="1651944975794" duration="9632000" />
     </task>
     <servers />
   </component>
