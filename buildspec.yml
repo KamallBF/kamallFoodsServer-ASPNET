@@ -15,11 +15,11 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t kamal-foods-server .
-      - docker tag kamal-foods-server:latest public.ecr.aws/p7t1v1v3/kamal-foods-server:latest
+      - docker build -t kamal-foods-server1 .
+      - docker tag kamal-foods-server1:latest public.ecr.aws/p7t1v1v3/kamal-foods-server1:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push public.ecr.aws/p7t1v1v3/kamal-foods-server:latest
+      - docker push public.ecr.aws/p7t1v1v3/kamal-foods-server1:latest
                     
