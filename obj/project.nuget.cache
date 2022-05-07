@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+V0EIqKSDdbI6K5k41LMlRAW37jwZqVYe3CFfzeRBSYjuMc5cHGPwFIZY8veRopKfUB2E8lYXYxCmm2jpvBqIg==",
+  "dgSpecHash": "KHOjo+/k4N87gpm/2UjsbqWltlBvSkb33oqDkH0HuD23pRGXjbt4FXTGedexFgqq4rIwfaxMHW5wyxR8tWH7UQ==",
   "success": true,
-  "projectFilePath": "/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/Kamall-foods-server-aspNetCore.csproj",
+  "projectFilePath": "/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/Kamall-foods-server-aspNetCore.csproj",
   "expectedPackageFiles": [
     "/Users/asareeldadiouari/.nuget/packages/bouncycastle.netcore/1.8.5/bouncycastle.netcore.1.8.5.nupkg.sha512",
     "/Users/asareeldadiouari/.nuget/packages/elasticsearch.net/7.14.1/elasticsearch.net.7.14.1.nupkg.sha512",

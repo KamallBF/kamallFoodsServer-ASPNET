@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/Kamall-foods-server-aspNetCore.csproj": {}
+    "/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/Kamall-foods-server-aspNetCore.csproj": {}
   },
   "projects": {
-    "/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/Kamall-foods-server-aspNetCore.csproj": {
+    "/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/Kamall-foods-server-aspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/Kamall-foods-server-aspNetCore.csproj",
+        "projectUniqueName": "/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/Kamall-foods-server-aspNetCore.csproj",
         "projectName": "Kamall-foods-server-aspNetCore",
-        "projectPath": "/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/Kamall-foods-server-aspNetCore.csproj",
+        "projectPath": "/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/Kamall-foods-server-aspNetCore.csproj",
         "packagesPath": "/Users/asareeldadiouari/.nuget/packages/",
-        "outputPath": "/Volumes/NVME 500GB/Code/Kamall/kamallFoodsServer-ASPNET/obj/",
+        "outputPath": "/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/asareeldadiouari/.nuget/NuGet/NuGet.Config"
