@@ -33,6 +33,14 @@ namespace Kamall_foods_server_aspNetCore.Controllers
         }
 
         [AllowAnonymous]
+        [HttpGet]
+        [Route("test")]
+        public ActionResult Test()
+        {
+            return Ok("it works");
+        }
+        
+        [AllowAnonymous]
         [HttpPost]
         [Route("login")]
         public async Task<ActionResult> LoginUser(UserLoginRequest user)

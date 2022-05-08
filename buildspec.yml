@@ -10,16 +10,16 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region us-east-1 | docker login --profile Asareel --password-stdin 568279883407.dkr.ecr.us-east-1.amazonaws.com
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 568279883407.dkr.ecr.us-east-1.amazonaws.com
   build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
       - docker build -t kamal-foods-server1 .
-      - docker tag kamal-foods-server1:latest 568279883407.dkr.ecr.us-east-1.amazonaws.com/kamal-foods-server1:latest #public.ecr.aws/p7t1v1v3/kamal-foods-server1:latest
+      - docker tag kamal-foods-server1:latest public.ecr.aws/p7t1v1v3/kamal-foods-server1:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 568279883407.dkr.ecr.us-east-1.amazonaws.com/kamal-foods-server1:latest #public.ecr.aws/p7t1v1v3/kamal-foods-server1:latest
+      - docker push public.ecr.aws/p7t1v1v3/kamal-foods-server1:latest
                     

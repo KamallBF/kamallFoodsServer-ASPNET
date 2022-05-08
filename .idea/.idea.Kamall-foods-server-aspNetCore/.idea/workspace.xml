@@ -5,7 +5,186 @@
     <projectFile profileName="Kamall_foods_server_aspNetCore">Kamall-foods-server-aspNetCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="" />
+    <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/AWSSDK.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/AWSSDK.ElasticBeanstalk.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/BouncyCastle.Crypto.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Elasticsearch.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Google.Protobuf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Hangfire.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Hangfire.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Hangfire.MemoryStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/K4os.Compression.LZ4.Streams.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/K4os.Compression.LZ4.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/K4os.Hash.xxHash.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Kamall-foods-server-aspNetCore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Kamall-foods-server-aspNetCore.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Kamall-foods-server-aspNetCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Kamall-foods-server-aspNetCore.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/MailKit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.Extensions.Logging.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/MimeKit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/MockData/Restaurants.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/MySql.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/MySql.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Nest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Newtonsoft.Json.Bson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Ubiety.Dns.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/Zstandard.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/ca/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/de/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/es/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/fa/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/fr/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/libman.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/nb/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/nl/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/pt-BR/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/pt-PT/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/pt/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/tr-TR/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/zh-TW/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net5.0/zh/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/Kamall-foods-server-aspNetCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/PublishOutputs.e73edb2ca8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/ref/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/refint/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net5.0/staticwebassets/Kamall-foods-server-aspNetCore.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/AWSSDK.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/AWSSDK.ElasticBeanstalk.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/BouncyCastle.Crypto.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Elasticsearch.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Google.Protobuf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Hangfire.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Hangfire.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Hangfire.MemoryStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/K4os.Compression.LZ4.Streams.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/K4os.Compression.LZ4.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/K4os.Hash.xxHash.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Kamall-foods-server-aspNetCore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Kamall-foods-server-aspNetCore.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Kamall-foods-server-aspNetCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Kamall-foods-server-aspNetCore.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/MailKit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.Extensions.Logging.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/MimeKit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/MockData/Restaurants.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/MySql.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/MySql.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Nest.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Newtonsoft.Json.Bson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Ubiety.Dns.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/Zstandard.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/ca/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/de/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/es/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/fa/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/fr/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/libman.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/nb/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/nl/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/pt-BR/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/pt-PT/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/pt/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/tr-TR/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/zh-TW/Hangfire.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/zh/Hangfire.Core.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kamall-foods-server-aspNetCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Kamall-foods-server-aspNetCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +244,21 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Kamal" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isPublishEnabled="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Kamall-foods-server-aspNetCore: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Kamall-foods-server-aspNetCore: Kamall_foods_server_aspNetCore" />
+      <item itemvalue="Docker.Kamal" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +274,9 @@
       <workItem from="1651941202337" duration="1240000" />
       <workItem from="1651942823513" duration="1432000" />
       <workItem from="1651944975794" duration="14413000" />
-      <workItem from="1652005477897" duration="1039000" />
+      <workItem from="1652005477897" duration="11611000" />
+      <workItem from="1652037670896" duration="201000" />
+      <workItem from="1652037877650" duration="3761000" />
     </task>
     <servers />
   </component>
