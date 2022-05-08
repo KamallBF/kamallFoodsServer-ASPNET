@@ -5,9 +5,7 @@
     <projectFile profileName="Kamall_foods_server_aspNetCore">Kamall-foods-server-aspNetCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,7 @@
       <workItem from="1651941202337" duration="1240000" />
       <workItem from="1651942823513" duration="1432000" />
       <workItem from="1651944975794" duration="14413000" />
-      <workItem from="1652005477897" duration="317000" />
+      <workItem from="1652005477897" duration="1039000" />
     </task>
     <servers />
   </component>
