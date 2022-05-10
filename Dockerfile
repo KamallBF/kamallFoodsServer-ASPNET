@@ -22,5 +22,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 COPY conf.d conf.d
-CMD ["Dotnet5DockerWebAPILambda::Dotnet5DockerWebAPILambda.LambdaEntryPoint::FunctionHandlerAsync"]
 ENTRYPOINT ["dotnet", "Kamall-foods-server-aspNetCore.dll"]

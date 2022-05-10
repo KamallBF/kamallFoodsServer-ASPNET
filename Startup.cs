@@ -132,7 +132,7 @@ namespace Kamall_foods_server_aspNetCore
                 options.AddPolicy("CorsApi",
                     builder => builder.WithOrigins("http://localhost:3000", "https://kamall-foods.com",
                             "https://www.kamall-foods.com", "https://kamall-foods-panel.com",
-                            "https://www.kamall-foods-panel.com")
+                            "https://www.kamall-foods-panel.com, https://feature.d8qtesa7y5ir9.amplifyapp.com")
                         .AllowAnyHeader().AllowCredentials().SetIsOriginAllowed(_ => true)
                         .WithMethods("GET", "PUT", "POST", "DELETE"));
             });
@@ -163,7 +163,7 @@ namespace Kamall_foods_server_aspNetCore
             app.UseRouting();
 
             app.UseCors(options => options.WithOrigins("http://localhost:3000",
-                    "https://kamall-foods.com", "https://www.kamall-foods.com")
+                    "https://kamall-foods.com", "https://www.kamall-foods.com, https://feature.d8qtesa7y5ir9.amplifyapp.com")
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials()
