@@ -5,7 +5,20 @@
     <projectFile profileName="Kamall_foods_server_aspNetCore">Kamall-foods-server-aspNetCore.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="" />
+    <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/CertbotValidationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf.d/https/kamall-foods-server.xyz.pfx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.d/https/$prefix.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.d/https/R3Cert.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.d/https/fullchain.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.d/https/localhost.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.d/https/privkey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +111,8 @@
       <workItem from="1652005477897" duration="11611000" />
       <workItem from="1652037670896" duration="201000" />
       <workItem from="1652037877650" duration="3761000" />
-      <workItem from="1652091780177" duration="1538000" />
+      <workItem from="1652091780177" duration="9103000" />
+      <workItem from="1652181047515" duration="6934000" />
     </task>
     <servers />
   </component>

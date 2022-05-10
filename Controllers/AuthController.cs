@@ -39,7 +39,7 @@ namespace Kamall_foods_server_aspNetCore.Controllers
         {
             return Ok("it works");
         }
-        
+
         [AllowAnonymous]
         [HttpPost]
         [Route("login")]

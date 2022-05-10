@@ -26,7 +26,7 @@ namespace Kamall_foods_server_aspNetCore
                     webBuilder.UseStartup<Startup>().ConfigureKestrel(options =>
                     {
                         var port = 5001;
-                        var pfxFilePath = "./conf.d/https/localhost.pfx";
+                        var pfxFilePath = "./conf.d/https/kamall-foods-server.xyz.pfx";
                         // The password you specified when exporting the PFX file using OpenSSL.
                         // This would normally be stored in configuration or an environment variable;
                         // I've hard-coded it here just to make it easier to see what's going on.
