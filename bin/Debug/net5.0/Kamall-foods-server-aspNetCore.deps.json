@@ -34,6 +34,7 @@
       "Kamall-foods-server-aspNetCore/1.0.0": {
         "dependencies": {
           "AWSSDK.ElasticBeanstalk": "3.7.0.157",
+          "AWSSDK.Lambda": "3.7.12.13",
           "Hangfire.AspNetCore": "1.8.0-beta4",
           "Hangfire.MemoryStorage": "1.7.0",
           "MailKit": "3.2.0",
@@ -360,6 +361,20 @@
         },
         "compile": {
           "lib/netcoreapp3.1/AWSSDK.ElasticBeanstalk.dll": {}
+        }
+      },
+      "AWSSDK.Lambda/3.7.12.13": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.11.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Lambda.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.12.13"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Lambda.dll": {}
         }
       },
       "BouncyCastle.NetCore/1.8.5": {},
@@ -2968,6 +2983,13 @@
       "sha512": "sha512-IUKmvwypbN8FzA37p/grL0tFyhAUHofrIr1wbhB8GzpA7315GXEt8vv2bozTyU4186KaaWr01poEEs0NVKXGgQ==",
       "path": "awssdk.elasticbeanstalk/3.7.0.157",
       "hashPath": "awssdk.elasticbeanstalk.3.7.0.157.nupkg.sha512"
+    },
+    "AWSSDK.Lambda/3.7.12.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bs+Cl7EwZA7UzvjJ+zLxlSzssD8aTz2ouYrhmvv0FcTPUTceiwUv0/XUrvhfQTOl2V+fIlMJUeJJTLXdR2KDPw==",
+      "path": "awssdk.lambda/3.7.12.13",
+      "hashPath": "awssdk.lambda.3.7.12.13.nupkg.sha512"
     },
     "BouncyCastle.NetCore/1.8.5": {
       "type": "package",

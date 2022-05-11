@@ -57,20 +57,18 @@ namespace Kamall_foods_server_aspNetCore.Services
 
         public RefreshToken GenerateRefreshToken(User user)
         {
-            using (var rngCryptoServiceProvider = new RNGCryptoServiceProvider())
+            using var rngCryptoServiceProvider = RandomNumberGenerator.Create();
+            var randomBytes = new byte[64];
+            rngCryptoServiceProvider.GetBytes(randomBytes);
+            return new RefreshToken
             {
-                var randomBytes = new byte[64];
-                rngCryptoServiceProvider.GetBytes(randomBytes);
-                return new RefreshToken
-                {
-                    Token = Convert.ToBase64String(randomBytes),
-                    ExpiryDate = DateTime.UtcNow.AddDays(6),
-                    AddedDate = DateTime.UtcNow,
-                    IsUsed = false,
-                    IsRevorked = false,
-                    UserId = user.ID
-                };
-            }
+                Token = Convert.ToBase64String(randomBytes),
+                ExpiryDate = DateTime.UtcNow.AddDays(6),
+                AddedDate = DateTime.UtcNow,
+                IsUsed = false,
+                IsRevorked = false,
+                UserId = user.ID
+            };
         }
 
         public string GenerateJwt(User user, string email, Role role = Role.User)

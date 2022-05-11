@@ -356,3 +356,4 @@ C:/Users/dyiem/OneDrive/Bureau/Kamall/Kamall-foods-server-aspNetCore/obj/Debug/n
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.pdb
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/obj/Debug/net5.0/Kamall-foods-server-aspNetCore.genruntimeconfig.cache
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/obj/Debug/net5.0/ref/Kamall-foods-server-aspNetCore.dll
+/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net5.0/AWSSDK.Lambda.dll
