@@ -19,19 +19,20 @@ phases:
       - echo Building the Docker image...
       - docker build -t kamal-foods-server .
       - docker tag kamal-foods-server:latest 568279883407.dkr.ecr.us-east-1.amazonaws.com/kamal-foods-server:latest
-      - ContainerName="Kamal-foods-container"
-      - ImageURI=$(cat imageDetail.json | jq -r '.ImageURI')
-      - printf '[{"name":"CONTAINER_NAME","imageUri":"IMAGE_URI"}]' > imagedefinitions.json
-      - sed -i -e "s|CONTAINER_NAME|$ContainerName|g" imagedefinitions.json
-      - sed -i -e "s|IMAGE_URI|$ImageURI|g" imagedefinitions.json
-      - cat imagedefinitions.json
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push 568279883407.dkr.ecr.us-east-1.amazonaws.com/kamal-foods-server:latest
+      - ContainerName="Kamal-foods-container"
+      - ImageURI=$(cat imageDetail.json | jq -r '.ImageURI')
+      #- printf '[{"name":"CONTAINER_NAME","imageUri":"IMAGE_URI"}]' > imagedefinitions.json
+      #- sed -i -e "s|CONTAINER_NAME|$ContainerName|g" imagedefinitions.json
+      #- sed -i -e "s|IMAGE_URI|$ImageURI|g" imagedefinitions.json
+      #- cat imagedefinitions.json
         
 artifacts:
   files:
     - imagedefinitions.json
+    - imageDetail.json
                     
