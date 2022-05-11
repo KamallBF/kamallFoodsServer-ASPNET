@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.d/https/.pfx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1652037877650" duration="3761000" />
       <workItem from="1652091780177" duration="9103000" />
       <workItem from="1652181047515" duration="8207000" />
-      <workItem from="1652216477607" duration="3711000" />
+      <workItem from="1652216477607" duration="4382000" />
     </task>
     <servers />
   </component>
