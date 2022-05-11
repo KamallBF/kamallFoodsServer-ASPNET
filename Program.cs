@@ -23,6 +23,7 @@ namespace Kamall_foods_server_aspNetCore
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     //webBuilder.UseStartup<Startup>();
+
                     webBuilder.UseStartup<Startup>().ConfigureKestrel(options =>
                     {
                         var port = 5001;

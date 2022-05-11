@@ -1,4 +1,5 @@
 using System;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Hangfire;
@@ -18,6 +19,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -127,6 +129,16 @@ namespace Kamall_foods_server_aspNetCore
                 options.LogoutPath = "/logout";
             });
 
+            services.Configure<ForwardedHeadersOptions>(options =>
+            {
+                options.KnownProxies .Add(IPAddress.Parse("3.217.196.56"));
+                options.ForwardedHeaders =
+                    ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+                
+                options.KnownNetworks.Clear();
+                options.KnownProxies.Clear();
+            });
+
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsApi",
@@ -136,7 +148,7 @@ namespace Kamall_foods_server_aspNetCore
                         .AllowAnyHeader().AllowCredentials().SetIsOriginAllowed(_ => true)
                         .WithMethods("GET", "PUT", "POST", "DELETE"));
             });
-
+            
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
@@ -145,6 +157,7 @@ namespace Kamall_foods_server_aspNetCore
                 options.Secure = CookieSecurePolicy.Always;
                 // you can add more options here and they will be applied to all cookies (middleware and manually created cookies)
             });
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -158,16 +171,23 @@ namespace Kamall_foods_server_aspNetCore
                 app.UseSwaggerUI(
                     c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Kamall_foods_server_aspNetCore v1"));
             }
+            
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
 
             app.UseHttpsRedirection();
             app.UseRouting();
 
-            app.UseCors(options => options.WithOrigins("http://localhost:3000",
+            /*app.UseCors(options => options.WithOrigins("http://localhost:3000",
                     "https://kamall-foods.com", "https://www.kamall-foods.com, https://feature.d8qtesa7y5ir9.amplifyapp.com")
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials()
-            );
+            );*/
+
+            app.UseCors("CorsApi");
 
             /** Order is important **/
             app.UseAuthentication();
