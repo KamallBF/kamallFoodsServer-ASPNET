@@ -1,7 +1,6 @@
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/site/web.config
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/appsettings.Development.json
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/appsettings.json
-/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/global.json
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/libman.json
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/MockData/Restaurants.json
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/site/appsettings.Development.json
