@@ -48,6 +48,14 @@ public class RestaurantController : ControllerBase
     [Route("validate/admin/{id}")]
     public async Task<ActionResult> ApproveCreationRequest(string id)
     {
+        if ((await _adminRepository.Find(id)).IsVerified)
+            return new ContentResult
+            {
+                ContentType = "text/html",
+                StatusCode = 299,
+                Content = "Compte professionel deja approuve !"
+            };
+        
         try
         {
             await _restaurantAdminService.Approve(id);
@@ -69,6 +77,14 @@ public class RestaurantController : ControllerBase
     [Route("invalidate/admin/{id}")]
     public async Task<ActionResult> DisapproveCreationRequest(string id)
     {
+        if ((await _adminRepository.Find(id)) == null)
+            return new ContentResult
+            {
+                ContentType = "text/html",
+                StatusCode = 299,
+                Content = "Refus de requete de comtpe deja approuvee !"
+            };
+        
         try
         {
             await _restaurantAdminService.DisapproveAndDelete(id);
@@ -77,7 +93,7 @@ public class RestaurantController : ControllerBase
             {
                 ContentType = "text/html",
                 StatusCode = 200,
-                Content = "Demande de création de compte refusée avec succès !"
+                Content = "Demande de creation de compte refusee avec succes !"
             };
         }
         catch (Exception e)
