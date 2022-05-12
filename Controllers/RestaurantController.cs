@@ -44,7 +44,7 @@ public class RestaurantController : ControllerBase
         }
     }
 
-    [HttpPost]
+    [HttpGet]
     [Route("validate/admin/{id}")]
     public async Task<ActionResult> ApproveCreationRequest(string id)
     {
@@ -65,7 +65,7 @@ public class RestaurantController : ControllerBase
         }
     }
     
-    [HttpPost]
+    [HttpGet]
     [Route("invalidate/admin/{id}")]
     public async Task<ActionResult> DisapproveCreationRequest(string id)
     {
