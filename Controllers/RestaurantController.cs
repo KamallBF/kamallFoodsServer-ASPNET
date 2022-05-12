@@ -51,6 +51,7 @@ public class RestaurantController : ControllerBase
         try
         {
             await _restaurantAdminService.Approve(id);
+            // Envoyer un mail d'approbationn au client lorsqu'il l'est
             return new ContentResult
             {
                 ContentType = "text/html",
@@ -71,6 +72,7 @@ public class RestaurantController : ControllerBase
         try
         {
             await _restaurantAdminService.DisapproveAndDelete(id);
+            //Envoyer un mail de refus
             return new ContentResult
             {
                 ContentType = "text/html",

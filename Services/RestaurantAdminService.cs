@@ -38,8 +38,8 @@ public class RestaurantAdminService : IRestaurantAdminService
                    $"<p>Email : {restaurantAdmin.Email}</p>" +
                    $"<p>Numéro Téléphone : {restaurantAdmin.PhoneNumber}</p>" +
                    "</div>" +
-                   $"<a href='https://kamall-foods.com/restaurants/validate/admin/{id}'><button style='color: #62fc03'>Approuver</button></a>" +
-                   $"<a href='https://kamall-foods.com/restaurants/invalidate/admin/{id}'><button style='color: #fc3d03'>Refuser</button></a>" +
+                   $"<a href='https://kamall-foods-server.xyz/restaurants/validate/admin/{id}'><button style='color: #62fc03'>Approuver</button></a>" +
+                   $"<a href='https://kamall-foods-server.xyz/restaurants/invalidate/admin/{id}'><button style='color: #fc3d03'>Refuser</button></a><br>" +
                    "<img src=`https://kamall-bf.com/nouveauScripts/images/menu/logo/logo_kamall_grand5.png` alt=`Kamall logo` />";
 
         foreach (var mail in new[] { "asareel56@gmail.com" })
