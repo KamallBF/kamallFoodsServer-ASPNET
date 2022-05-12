@@ -1,13 +1,12 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 
-namespace Kamall_foods_server_aspNetCore.Services.Email
+namespace Kamall_foods_server_aspNetCore.Services.Email;
+
+public class MailRequest
 {
-    public class MailRequest
-    {
-        public string ToEmail { get; set; }
-        public string Subject { get; set; }
-        public string Body { get; set; }
-        public List<IFormFile> Attachments { get; set; }
-    }
+    public string ToEmail { get; set; }
+    public string Subject { get; set; }
+    public string Body { get; set; }
+    public List<IFormFile> Attachments { get; set; }
 }

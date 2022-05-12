@@ -6,9 +6,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imagedefinitions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/IServices/IRestaurantAdminService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/RestaurantAdminService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AdminController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RestaurantController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RestaurantController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CacheSystem/CacheSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CacheSystem/CacheSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CacheSystem/ICacheSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CacheSystem/ICacheSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Context/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Context/DatabaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Jobs/IJobs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Jobs/IJobs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Jobs/Jobs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Jobs/Jobs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/BusinessHour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/BusinessHour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Coordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Coordinate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/ErrorMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/ErrorMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Food/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Food/Food.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Food/FoodType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Food/FoodType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Person/DeliveryUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Person/DeliveryUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Person/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Person/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Person/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Person/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Restaurant/Restaurant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Restaurant/Restaurant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Restaurant/RestaurantAdmin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Restaurant/RestaurantAdmin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Restaurant/RestaurantType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Restaurant/RestaurantType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Requests/MailRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Requests/MailRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Requests/RestaurantAdminCreateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Requests/RestaurantAdminCreateRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Requests/UserCreateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Requests/UserCreateRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Requests/UserLoginRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Requests/UserLoginRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Response/UserInfoGetResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Response/UserInfoGetResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Token/RefreshToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Token/RefreshToken.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Token/SecurityToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Token/SecurityToken.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Roles/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Roles/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kamall-foods-server-aspNetCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Kamall-foods-server-aspNetCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/DeliveryPersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/DeliveryPersonRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/IRepository/IDeliveryPersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/IRepository/IDeliveryPersonRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/IRepository/IRestaurantAdminRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/IRepository/IRestaurantAdminRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/IRepository/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/IRepository/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/RestaurantAdminRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/RestaurantAdminRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/UserSecurity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Security/UserSecurity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Email/MailSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Email/MailSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Email/MailTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Email/MailTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/IServices/IEmailService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IServices/IEmailService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/IServices/ITokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IServices/ITokenService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/IServices/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IServices/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/MailService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/MailService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/TokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TokenService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/site/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +66,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/beb39ba6b73898ee28699607b2b8b811a6761e29797965b16b42b59384570/RandomNumberGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db5f89df1c97f4f6dc89cb5cc3f7076f2d05684e19a9df0af813e86bb4dbbf/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +88,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ReSpellerSettingsId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -110,7 +161,8 @@
       <workItem from="1652091780177" duration="9103000" />
       <workItem from="1652181047515" duration="8207000" />
       <workItem from="1652216477607" duration="12998000" />
-      <workItem from="1652277383393" duration="5076000" />
+      <workItem from="1652277383393" duration="20624000" />
+      <workItem from="1652342658452" duration="7578000" />
     </task>
     <servers />
   </component>

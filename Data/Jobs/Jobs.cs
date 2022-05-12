@@ -1,24 +1,22 @@
 ﻿using System.Linq;
 using Kamall_foods_server_aspNetCore.Data.Context;
-using Kamall_foods_server_aspNetCore.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
-namespace Kamall_foods_server_aspNetCore.Data.Jobs
+namespace Kamall_foods_server_aspNetCore.Data.Jobs;
+
+public class Jobs : IJobs
 {
-    public class Jobs : IJobs
+    private readonly DatabaseContext _context;
+
+    public Jobs(DbContextOptions<DatabaseContext> optionsBuilder)
     {
-        private readonly DatabaseContext _context;
+        _context = new DatabaseContext(optionsBuilder);
+    }
 
-        public Jobs(DbContextOptions<DatabaseContext> optionsBuilder)
-        {
-            _context = new DatabaseContext(optionsBuilder);
-        }
-
-        public void DeleteUnverifiedUsers()
-        {
-            var unverifiedUsers = _context.Users.Where(user => user.IsVerified == false);
-            foreach (var user in unverifiedUsers) _context.Users.Remove(user);
-            _context.SaveChanges();
-        }
+    public void DeleteUnverifiedUsers()
+    {
+        var unverifiedUsers = _context.Users.Where(user => user.IsVerified == false);
+        foreach (var user in unverifiedUsers) _context.Users.Remove(user);
+        _context.SaveChanges();
     }
 }

@@ -1,7 +1,6 @@
-﻿namespace Kamall_foods_server_aspNetCore.Data.Models
+﻿namespace Kamall_foods_server_aspNetCore.Data.Models;
+
+public class ErrorMessage
 {
-    public class ErrorMessage
-    {
-        public string Error { get; set; }
-    }
+    public string Error { get; set; }
 }

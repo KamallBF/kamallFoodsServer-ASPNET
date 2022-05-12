@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿namespace Kamall_foods_server_aspNetCore.Data;
 
-namespace Kamall_foods_server_aspNetCore.Data
+public enum Role
 {
-    public enum Role
-    {
-        User,
-        SuperAdmin,
-        RestaurantAdmin,
-        DeliveryMan
-    }
+    User,
+    SuperAdmin,
+    RestaurantAdmin,
+    DeliveryMan
 }

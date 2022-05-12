@@ -1,41 +1,86 @@
 ﻿using System;
-using System.Net.Mail;
 using System.Threading.Tasks;
 using Kamall_foods_server_aspNetCore.Data.CacheSystem;
 using Kamall_foods_server_aspNetCore.Data.Models;
-using Kamall_foods_server_aspNetCore.Services.Email;
+using Kamall_foods_server_aspNetCore.Repository.IRepository;
 using Kamall_foods_server_aspNetCore.Services.IServices;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Kamall_foods_server_aspNetCore.Controllers
+namespace Kamall_foods_server_aspNetCore.Controllers;
+
+[ApiController]
+[Route("Restaurants")]
+public class RestaurantController : ControllerBase
 {
-    [ApiController]
-    [Route("Restaurants")]
-    public class RestaurantController : ControllerBase
+    private readonly IRestaurantAdminRepository _adminRepository;
+    private readonly ICacheSystem _cacheSystem;
+    private readonly IEmailService _emailService;
+    private readonly IRestaurantAdminService _restaurantAdminService;
+
+    public RestaurantController(ICacheSystem cacheSystem, IEmailService emailService,
+        IRestaurantAdminRepository restaurantAdminRepository,
+        IRestaurantAdminService restaurantAdminService)
     {
-        private readonly ICacheSystem _cacheSystem;
-        private readonly IEmailService _emailService;
+        _cacheSystem = cacheSystem;
+        _emailService = emailService;
+        _adminRepository = restaurantAdminRepository;
+        _restaurantAdminService = restaurantAdminService;
+    }
 
-        public RestaurantController(ICacheSystem cacheSystem, IEmailService emailService)
+    [HttpPost]
+    [Route("register")]
+    public async Task<ActionResult> CreateAccountRequest(RestaurantAdminCreateRequest request)
+    {
+        try
         {
-            _cacheSystem = cacheSystem;
-            _emailService = emailService;
+            await _adminRepository.Create(request);
+            await _emailService.RestaurantManagerCreationValidation(request);
+            await _restaurantAdminService.SendRegisteringRequestEmail(request);
+            return Ok($"Confirmation email sent with success to {request.Email}");
         }
-
-        [HttpPost]
-        [Route("register")]
-        public async Task<ActionResult> CreateAccountRequest(RestaurantAdminCreateRequest request)
+        catch (Exception e)
         {
-            try
+            return BadRequest(e.Message);
+        }
+    }
+
+    [HttpPost]
+    [Route("validate/admin/{id}")]
+    public async Task<ActionResult> ApproveCreationRequest(string id)
+    {
+        try
+        {
+            await _restaurantAdminService.Approve(id);
+            return new ContentResult
             {
-                await _emailService.RestaurantManagerCreationValidation(request);
-                return Ok($"Confirmation email sent with success to {request.Email}");
-            }
-            catch (Exception e)
+                ContentType = "text/html",
+                StatusCode = 200,
+                Content = "Création de compte professionelle approuvée !"
+            };
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
+    }
+    
+    [HttpPost]
+    [Route("invalidate/admin/{id}")]
+    public async Task<ActionResult> DisapproveCreationRequest(string id)
+    {
+        try
+        {
+            await _restaurantAdminService.DisapproveAndDelete(id);
+            return new ContentResult
             {
-                return BadRequest(e.Message);
-            }
+                ContentType = "text/html",
+                StatusCode = 200,
+                Content = "Demande de création de compte refusée avec succès !"
+            };
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
         }
     }
 }

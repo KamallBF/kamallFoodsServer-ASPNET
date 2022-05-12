@@ -10,48 +10,47 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Kamall_foods_server_aspNetCore.Services
+namespace Kamall_foods_server_aspNetCore.Services;
+
+public class UserService : IUserService
 {
-    public class UserService : IUserService
+    private static DatabaseContext _context;
+    private readonly ITokenService _tokenService;
+
+    public UserService(DbContextOptions<DatabaseContext> _optionsBuilder, ITokenService tokenService)
     {
-        private static DatabaseContext _context;
-        private readonly ITokenService _tokenService;
+        _context = new DatabaseContext(_optionsBuilder);
+        _tokenService = tokenService;
+    }
 
-        public UserService(DbContextOptions<DatabaseContext> _optionsBuilder, ITokenService tokenService)
-        {
-            _context = new DatabaseContext(_optionsBuilder);
-            _tokenService = tokenService;
-        }
+    public async Task<ObjectResult> Authenticate(UserLoginRequest user, Role role = Role.User)
+    {
+        var token = _tokenService.Create(user.Email, user.Password, role);
+        return await token;
+    }
 
-        public async Task<ObjectResult> Authenticate(UserLoginRequest user, Role role = Role.User)
-        {
-            var token = _tokenService.Create(user.Email, user.Password, role);
-            return await token;
-        }
+    public Task Logout(HttpContext httpContext)
+    {
+        foreach (var cookie in httpContext.Request.Cookies)
+            if (new List<string> { "X-Refresh-Token", "X-Username", "X-Access-Token" }.Any(c => c.Equals(cookie.Key)))
+                httpContext.Response.Cookies.Delete(cookie.Key, new CookieOptions
+                {
+                    Secure = true,
+                    SameSite = SameSiteMode.None
+                });
+        return Task.CompletedTask;
+    }
 
-        public Task Logout(HttpContext httpContext)
+    public async Task<object> Register(UserCreateRequest user)
+    {
+        return await Task.Run(() => new
         {
-            foreach (var cookie in httpContext.Request.Cookies)
-                if (new List<string> {"X-Refresh-Token", "X-Username", "X-Access-Token"}.Any(c => c.Equals(cookie.Key)))
-                    httpContext.Response.Cookies.Delete(cookie.Key, new CookieOptions()
-                    {
-                        Secure = true,
-                        SameSite = SameSiteMode.None
-                    });
-            return Task.CompletedTask;
-        }
+            Message = "Your account was created successfully"
+        });
+    }
 
-        public async Task<object> Register(UserCreateRequest user)
-        {
-            return await Task.Run(() => new
-            {
-                Message = "Your account was created successfully"
-            });
-        }
-
-        public bool PasswordIsValid(User userAuth, string password)
-        {
-            return UserSecurity.VerifyHashedPassword(userAuth.Password, password);
-        }
+    public bool PasswordIsValid(User userAuth, string password)
+    {
+        return UserSecurity.VerifyHashedPassword(userAuth.Password, password);
     }
 }
