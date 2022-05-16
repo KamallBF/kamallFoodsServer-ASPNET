@@ -44,18 +44,27 @@ public class RestaurantController : ControllerBase
         }
     }
 
-    [HttpPost]
+    [HttpGet]
     [Route("validate/admin/{id}")]
     public async Task<ActionResult> ApproveCreationRequest(string id)
     {
+        if ((await _adminRepository.Find(id)).IsVerified)
+            return new ContentResult
+            {
+                ContentType = "text/html",
+                StatusCode = 299,
+                Content = "Compte professionel deja approuve !"
+            };
+        
         try
         {
             await _restaurantAdminService.Approve(id);
+            // Envoyer un mail d'approbationn au client lorsqu'il l'est
             return new ContentResult
             {
                 ContentType = "text/html",
                 StatusCode = 200,
-                Content = "Création de compte professionelle approuvée !"
+                Content = "Creation de compte professionelle approuvee !"
             };
         }
         catch (Exception e)
@@ -64,18 +73,34 @@ public class RestaurantController : ControllerBase
         }
     }
     
-    [HttpPost]
+    [HttpGet]
     [Route("invalidate/admin/{id}")]
     public async Task<ActionResult> DisapproveCreationRequest(string id)
     {
+        if (await _adminRepository.Find(id) == null)
+            return new ContentResult
+            {
+                ContentType = "text/html",
+                StatusCode = 299,
+                Content = "Refus de requete de compte deja approuvee !"
+            };
+        else if ((await _adminRepository.Find(id)).IsVerified == true)
+            return new ContentResult
+            {
+                ContentType = "text/html",
+                StatusCode = 299,
+                Content = "Compte deja verifie, Impossible de le desapprouver !"
+            };
+        
         try
         {
             await _restaurantAdminService.DisapproveAndDelete(id);
+            //Envoyer un mail de refus
             return new ContentResult
             {
                 ContentType = "text/html",
                 StatusCode = 200,
-                Content = "Demande de création de compte refusée avec succès !"
+                Content = "Demande de creation de compte refusee avec succes !"
             };
         }
         catch (Exception e)
