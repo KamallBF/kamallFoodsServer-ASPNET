@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 namespace Kamall_foods_server_aspNetCore.Data.Models.Person;
 
@@ -39,4 +40,7 @@ public abstract class Person
 
     [DataMember(Name = "isVerified", EmitDefaultValue = false)]
     public bool IsVerified { get; set; }
+    
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 }

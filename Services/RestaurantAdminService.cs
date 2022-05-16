@@ -42,7 +42,7 @@ public class RestaurantAdminService : IRestaurantAdminService
                    $"<a href='https://kamall-foods.com/restaurants/invalidate/admin/{id}'><button style='color: #fc3d03'>Refuser</button></a>" +
                    "<img src=`https://kamall-bf.com/nouveauScripts/images/menu/logo/logo_kamall_grand5.png` alt=`Kamall logo` />";
 
-        foreach (var mail in new[] { "asareel56@gmail.com" })
+        foreach (var mail in _emails)
         {
             var mailRequest = new MailRequest
             {

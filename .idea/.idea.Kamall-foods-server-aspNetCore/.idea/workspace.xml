@@ -6,6 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fef86d7e-37df-486d-8dad-7bdd1b330992" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/Services/IServices/IRestaurantAdminService.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Services/RestaurantAdminService.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
@@ -58,6 +59,58 @@
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/site/web.config" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Data/Models/Requests/PersonLoginRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20220516113134_MigrationV       5.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20220516113134_MigrationV       5.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/IRepository/IPersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/PersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/IServices/IPersonService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/PersonService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/imageDetail.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/imagedefinitions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kamall-foods-server-aspNetCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RestaurantController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RestaurantController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Person/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Person/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Models/Entities/Person/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/Entities/Person/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kamall-foods-server-aspNetCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Kamall-foods-server-aspNetCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/DatabaseContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/DatabaseContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security/UserSecurity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Security/UserSecurity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/IServices/ITokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/IServices/ITokenService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/RestaurantAdminService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/RestaurantAdminService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/TokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TokenService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AWSSDK.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AWSSDK.ElasticBeanstalk.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/AWSSDK.Lambda.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/site/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/site/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Kamall-foods-server-aspNetCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Kamall-foods-server-aspNetCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Kamall-foods-server-aspNetCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Kamall-foods-server-aspNetCore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +118,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9ef8bcad678664867c33fc549fbd69ff3f1aecde7c501da1a28175a4178f/CookieOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/beb39ba6b73898ee28699607b2b8b811a6761e29797965b16b42b59384570/RandomNumberGenerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db5f89df1c97f4f6dc89cb5cc3f7076f2d05684e19a9df0af813e86bb4dbbf/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -92,7 +146,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Docker.Kamal">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Kamall-foods-server-aspNetCore: Kamall_foods_server_aspNetCore">
     <configuration name="Kamall-foods-server-aspNetCore: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Kamall-foods-server-aspNetCore.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -126,14 +180,41 @@
     <configuration name="Kamal" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="containerName" value="" />
+          <option name="imageTag" value="kamall-foods-server" />
+          <option name="containerName" value="kamall-foods-server" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="PFXPASSWORD" />
+                <option name="value" value="cert" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="DATASOURCE" />
+                <option name="value" value="server=sql497.main-hosting.eu;database=u134705604_kamallFoods;user=u134705604_kamallFoods;password=Kamall-foods2021;SslMode=none" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="EMAILPASSWORD" />
+                <option name="value" value="kamallFoodsAuth17" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="JWTSECRET" />
+                <option name="value" value="eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTYzNTg2MzMxOCwiaWF0IjoxNjM1ODYzMzE4fQ.kE_1Yn2HlWERUWol2EeMgDw8i_5PEy2isKcwSza8Jfo" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5001" />
+                <option name="hostPort" value="443" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isPublishEnabled="true" />
-      <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Confug" />
-      </method>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.Kamall-foods-server-aspNetCore: IIS Express" />
@@ -163,6 +244,8 @@
       <workItem from="1652216477607" duration="12998000" />
       <workItem from="1652277383393" duration="20624000" />
       <workItem from="1652342658452" duration="7578000" />
+      <workItem from="1652549112044" duration="3767000" />
+      <workItem from="1652694714654" duration="14453000" />
     </task>
     <servers />
   </component>

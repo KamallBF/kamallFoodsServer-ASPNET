@@ -8,15 +8,13 @@
     ".NETCoreApp,Version=v6.0": {
       "Kamall-foods-server-aspNetCore/1.0.0": {
         "dependencies": {
-          "AWSSDK.ElasticBeanstalk": "3.7.0.157",
-          "AWSSDK.Lambda": "3.7.12.13",
           "Hangfire.AspNetCore": "1.8.0-beta4",
           "Hangfire.MemoryStorage": "1.7.0",
           "MailKit": "3.2.0",
           "Microsoft.AspNetCore.Authentication": "2.2.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.11",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.9",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.10",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.5",
           "Microsoft.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.9",
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
@@ -31,36 +29,6 @@
         },
         "runtime": {
           "Kamall-foods-server-aspNetCore.dll": {}
-        }
-      },
-      "AWSSDK.Core/3.7.11.1": {
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.11.1"
-          }
-        }
-      },
-      "AWSSDK.ElasticBeanstalk/3.7.0.157": {
-        "dependencies": {
-          "AWSSDK.Core": "3.7.11.1"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.ElasticBeanstalk.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.0.157"
-          }
-        }
-      },
-      "AWSSDK.Lambda/3.7.12.13": {
-        "dependencies": {
-          "AWSSDK.Core": "3.7.11.1"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.Lambda.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.12.13"
-          }
         }
       },
       "BouncyCastle.NetCore/1.8.5": {},
@@ -252,14 +220,14 @@
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.11": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.5": {
         "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "5.0.11.0",
-            "fileVersion": "5.0.1121.47605"
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
           }
         }
       },
@@ -336,28 +304,28 @@
           }
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/5.0.10": {
+      "Microsoft.AspNetCore.JsonPatch/6.0.5": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "5.0.10.0",
-            "fileVersion": "5.0.1021.41022"
+          "lib/net6.0/Microsoft.AspNetCore.JsonPatch.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.10": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.5": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "5.0.10",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.5",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "5.0.10.0",
-            "fileVersion": "5.0.1021.41022"
+          "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
           }
         }
       },
@@ -533,27 +501,27 @@
           }
         }
       },
-      "Microsoft.IdentityModel.Protocols/6.7.1": {
+      "Microsoft.IdentityModel.Protocols/6.10.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "6.17.0",
           "Microsoft.IdentityModel.Tokens": "6.17.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {
-            "assemblyVersion": "6.7.1.0",
-            "fileVersion": "6.7.1.10630"
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
           }
         }
       },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.7.1": {
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.10.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "6.7.1",
+          "Microsoft.IdentityModel.Protocols": "6.10.0",
           "System.IdentityModel.Tokens.Jwt": "6.17.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
-            "assemblyVersion": "6.7.1.0",
-            "fileVersion": "6.7.1.10630"
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.20330"
           }
         }
       },
@@ -874,27 +842,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AWSSDK.Core/3.7.11.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LgHvlxNDeY7YnZES8KJooWHSCgbc5sOX17AGI4Faa/x79pvzy8w+lzgJqcHeIsxT3fk2EhTuKMTltjjZ6WK4UA==",
-      "path": "awssdk.core/3.7.11.1",
-      "hashPath": "awssdk.core.3.7.11.1.nupkg.sha512"
-    },
-    "AWSSDK.ElasticBeanstalk/3.7.0.157": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IUKmvwypbN8FzA37p/grL0tFyhAUHofrIr1wbhB8GzpA7315GXEt8vv2bozTyU4186KaaWr01poEEs0NVKXGgQ==",
-      "path": "awssdk.elasticbeanstalk/3.7.0.157",
-      "hashPath": "awssdk.elasticbeanstalk.3.7.0.157.nupkg.sha512"
-    },
-    "AWSSDK.Lambda/3.7.12.13": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Bs+Cl7EwZA7UzvjJ+zLxlSzssD8aTz2ouYrhmvv0FcTPUTceiwUv0/XUrvhfQTOl2V+fIlMJUeJJTLXdR2KDPw==",
-      "path": "awssdk.lambda/3.7.12.13",
-      "hashPath": "awssdk.lambda.3.7.12.13.nupkg.sha512"
-    },
     "BouncyCastle.NetCore/1.8.5": {
       "type": "package",
       "serviceable": true,
@@ -1000,12 +947,12 @@
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.11": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3oTEUzatJBR3vfKyqo1J+ET75fP78rgExbUYP4YwxDJMRHvj+cl7yCiGCRPLNB+CtvSOJM5g6jxMzitlNcsGrg==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.11",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512"
+      "sha512": "sha512-E+/t8R6peNEWM+O6A2J3b7wzZzX6oAaKmphHA4Y1EDyjPtdabYnBsIqyG3eKoBKdIRmeR7xuds+F1aUN0i1DrQ==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.9": {
       "type": "package",
@@ -1084,19 +1031,19 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/5.0.9",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.5.0.9.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/5.0.10": {
+    "Microsoft.AspNetCore.JsonPatch/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mWblC4aXXHBwKqBOW1J9hF/TKLOyyiaBucoEiLFVgmAMLKe2yHFygmWD4mgvlLEr68w+BqO9RelGTrczZpImrg==",
-      "path": "microsoft.aspnetcore.jsonpatch/5.0.10",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.5.0.10.nupkg.sha512"
+      "sha512": "sha512-kxQR7xCm9pQxnM3UZBp45Z470LFa1VA0qG/hFKhpE5hOJKgLOu4zmxakoVqswptAnHuD6ghd7XGb7hm1s1D0lw==",
+      "path": "microsoft.aspnetcore.jsonpatch/6.0.5",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.6.0.5.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.10": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qAaZsKeOOJ8EfGPCAnnZqAQ7lnkj+UcglYcrxXvGbnThpV10cRHy7BruQYPpO/hEBtIUd6Ncp31LSK6LPQFHqA==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/5.0.10",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.5.0.10.nupkg.sha512"
+      "sha512": "sha512-ord2AixR+h2xmv7LPAtifz5k4MHV0BVtzyp2UyB1+gILT+xw4usAvTWo0SX1ruBk3GK4kyhHa9cgQt0yafR2dQ==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.5",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.WebUtilities/2.2.0": {
       "type": "package",
@@ -1287,19 +1234,19 @@
       "path": "microsoft.identitymodel.logging/6.17.0",
       "hashPath": "microsoft.identitymodel.logging.6.17.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Protocols/6.7.1": {
+    "Microsoft.IdentityModel.Protocols/6.10.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DVGYIRUK3TkCTmz0IgBzWUE55CDNfLtXil1FgSbgHI7hi2fP2pz4tiTAno/5O/hdVwAzV+HtCQtFi7xW8smaHw==",
-      "path": "microsoft.identitymodel.protocols/6.7.1",
-      "hashPath": "microsoft.identitymodel.protocols.6.7.1.nupkg.sha512"
+      "sha512": "sha512-DFyXD0xylP+DknCT3hzJ7q/Q5qRNu0hO/gCU90O0ATdR0twZmlcuY9RNYaaDofXKVbzcShYNCFCGle2G/o8mkg==",
+      "path": "microsoft.identitymodel.protocols/6.10.0",
+      "hashPath": "microsoft.identitymodel.protocols.6.10.0.nupkg.sha512"
     },
-    "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.7.1": {
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.10.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-99gA+E6ZOCqySrT80Yh6wrfjJfeMxDisdAcA5Q66zHxMPY5Gzc8aT2Ldzu0GP1sADv/o3yI1Gc3P1GHXlXAVVQ==",
-      "path": "microsoft.identitymodel.protocols.openidconnect/6.7.1",
-      "hashPath": "microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512"
+      "sha512": "sha512-LVvMXAWPbPeEWTylDrxunlHH2wFyE4Mv0L4gZrJHC4HTESbWHquKZb/y/S8jgiQEDycOP0PDQvbG4RR/tr2TVQ==",
+      "path": "microsoft.identitymodel.protocols.openidconnect/6.10.0",
+      "hashPath": "microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Tokens/6.17.0": {
       "type": "package",

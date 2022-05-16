@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Kamall_foods_server_aspNetCore.Data;
 using Kamall_foods_server_aspNetCore.Data.Models;
 using Kamall_foods_server_aspNetCore.Data.Models.Misc;
+using Kamall_foods_server_aspNetCore.Data.Models.Person;
 using Kamall_foods_server_aspNetCore.Repository.IRepository;
 using Kamall_foods_server_aspNetCore.Security;
 using Kamall_foods_server_aspNetCore.Services.IServices;
@@ -20,10 +21,12 @@ namespace Kamall_foods_server_aspNetCore.Services;
 public class TokenService : ITokenService
 {
     private readonly IUserRepository _userRepository;
+    private readonly IPersonRepository _personRepository;
 
-    public TokenService(IUserRepository userRepository, IConfiguration configuration)
+    public TokenService(IUserRepository userRepository, IConfiguration configuration, IPersonRepository personRepository)
     {
         _userRepository = userRepository;
+        _personRepository = personRepository;
         Configuration = configuration;
     }
 
@@ -39,10 +42,10 @@ public class TokenService : ITokenService
                 ? "The password is not valid"
                 : response.Exception.Message);
 
-        return new ObjectResult(await generateToken(email, grantType));
+        return new ObjectResult(await GenerateToken(email, grantType));
     }
 
-    public RefreshToken GenerateRefreshToken(User user)
+    public RefreshToken GenerateRefreshToken(Person user)
     {
         using var rngCryptoServiceProvider = RandomNumberGenerator.Create();
         var randomBytes = new byte[64];
@@ -58,7 +61,7 @@ public class TokenService : ITokenService
         };
     }
 
-    public string GenerateJwt(User user, string email, Role role = Role.User)
+    public string GenerateJwt(Person user, string email, Role role = Role.User)
     {
         var claims = new ClaimsIdentity(new[]
         {
@@ -87,7 +90,8 @@ public class TokenService : ITokenService
 
     private async Task<bool> IsValidCredentials(string email, string password)
     {
-        var response = _userRepository.FindByEmail(email);
+        //var response = _userRepository.FindByEmail(email);
+        var response = _personRepository.FindByEmail(email);
 
         if (response.IsFaulted)
             throw new Exception("Invalid email or password");
@@ -98,9 +102,9 @@ public class TokenService : ITokenService
         return passwordMatch;
     }
 
-    private async Task<dynamic> generateToken(string email, Role role)
+    private async Task<dynamic> GenerateToken(string email, Role role)
     {
-        var user = await _userRepository.FindByEmail(email);
+        var user = await _personRepository.FindByEmail(email);
 
         if (user == null) throw new Exception($"Email not found : {email}");
 

@@ -14,9 +14,6 @@
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.runtimeconfig.json
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.dll
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/Kamall-foods-server-aspNetCore.pdb
-/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/AWSSDK.Core.dll
-/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/AWSSDK.ElasticBeanstalk.dll
-/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/AWSSDK.Lambda.dll
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/Elasticsearch.Net.dll
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/Google.Protobuf.dll
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/Hangfire.AspNetCore.dll
@@ -96,3 +93,6 @@
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.pdb
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/obj/Debug/net6.0/Kamall-foods-server-aspNetCore.genruntimeconfig.cache
 /Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/obj/Debug/net6.0/ref/Kamall-foods-server-aspNetCore.dll
+/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/global.json
+/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/imagedefinitions.json
+/Volumes/NVME 500GB/Code/AWS/Kamal-Foods-Server/bin/Debug/net6.0/imageDetail.json

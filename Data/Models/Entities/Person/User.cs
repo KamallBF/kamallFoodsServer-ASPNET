@@ -8,6 +8,4 @@ namespace Kamall_foods_server_aspNetCore.Data.Models;
 public class User : Person.Person
 {
     public List<string> DeliveryAdresses { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
 }

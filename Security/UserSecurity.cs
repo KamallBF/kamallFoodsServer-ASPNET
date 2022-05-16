@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Security.Cryptography;
 
 namespace Kamall_foods_server_aspNetCore.Security;
@@ -51,14 +52,14 @@ public static class UserSecurity
     }
 
     //[MethodImpl(MethodImplOptions.NoOptimization)]
-    private static bool ByteArraysEqual(byte[] a, byte[] b)
+    private static bool ByteArraysEqual(IReadOnlyList<byte> a, IReadOnlyList<byte> b)
     {
         if (ReferenceEquals(a, b))
             return true;
-        if (a == null || b == null || a.Length != b.Length)
+        if (a == null || b == null || a.Count != b.Count)
             return false;
         var flag = true;
-        for (var index = 0; index < a.Length; ++index)
+        for (var index = 0; index < a.Count; ++index)
             flag &= a[index] == b[index];
         return flag;
     }

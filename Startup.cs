@@ -60,11 +60,13 @@ public class Startup
 
         services.AddHangfireServer();
 
+        services.AddTransient<IPersonRepository, PersonRepository>();
         services.AddTransient<IUserRepository, UserRepository>();
         services.AddTransient<IRestaurantAdminRepository, RestaurantAdminRepository>();
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<ITokenService, TokenService>();
         services.AddScoped<IEmailService, EmailService>();
+        services.AddScoped<IPersonService, PersonService>();
         services.AddScoped<IRestaurantAdminService, RestaurantAdminService>();
         services.AddScoped<IJobs, Jobs>();
         services.AddSingleton<ICacheSystem, CacheSystem>();
@@ -178,23 +180,35 @@ public class Startup
         app.UseHttpsRedirection();
         app.UseRouting();
 
-        /*app.UseCors(options => options.WithOrigins("http://localhost:3000",
+        app.UseCors(options => options.WithOrigins("http://localhost:3000",
                 "https://kamall-foods.com", "https://www.kamall-foods.com, https://feature.d8qtesa7y5ir9.amplifyapp.com")
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials()
-        );*/
+        );
 
         app.UseCors("CorsApi");
 
-        /** Order is important **/
+        //Order is important !
         app.UseAuthentication();
         app.UseAuthorization();
-        /** **/
+        
+        app.Use(async (ctx, next) =>
+        {
+            // using Microsoft.AspNetCore.Http;
+            var endpoint = ctx.GetEndpoint();
 
-        app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            if (endpoint != null)
+            {
+               
+            }
+
+            await next();
+        });
+
+        app.UseEndpoints(endpoints =>{ endpoints.MapControllers(); });
         app.UseDeveloperExceptionPage();
-
+        
         recurringJobManager.AddOrUpdate("DeleteUnverifiedUsers",
             () => serviceProvider.GetService<IJobs>().DeleteUnverifiedUsers(), Cron.Weekly);
     }
