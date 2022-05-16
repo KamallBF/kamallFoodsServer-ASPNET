@@ -180,13 +180,6 @@ public class Startup
         app.UseHttpsRedirection();
         app.UseRouting();
 
-        app.UseCors(options => options.WithOrigins("http://localhost:3000",
-                "https://kamall-foods.com", "https://www.kamall-foods.com, https://feature.d8qtesa7y5ir9.amplifyapp.com")
-            .AllowAnyMethod()
-            .AllowAnyHeader()
-            .AllowCredentials()
-        );
-
         app.UseCors("CorsApi");
 
         //Order is important !
