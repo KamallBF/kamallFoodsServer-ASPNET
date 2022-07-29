@@ -7,6 +7,7 @@ using Kamall_foods_server_aspNetCore.Data;
 using Kamall_foods_server_aspNetCore.Data.Models;
 using Kamall_foods_server_aspNetCore.Data.Models.Misc;
 using Kamall_foods_server_aspNetCore.Data.Models.Requests;
+using Kamall_foods_server_aspNetCore.Data.Models.Response;
 using Kamall_foods_server_aspNetCore.Repository.IRepository;
 using Kamall_foods_server_aspNetCore.Services.IServices;
 using Microsoft.AspNetCore.Authorization;
@@ -105,7 +106,7 @@ public class AuthController : ControllerBase
                 Expires = securityToken.RefreshToken.ExpiryDate
             });
 
-        return Ok("Successfully authenticated");
+        return Ok(new ResponseAndStatus("Successfully authenticated", 200));
     }
 
     [AllowAnonymous]
@@ -171,7 +172,7 @@ public class AuthController : ControllerBase
                 Error = e.Message
             });
         }
-        return Ok("Successfully authenticated");
+        return Ok(new ResponseAndStatus("Successfully authenticated", 200));
     }
 
     [Authorize]

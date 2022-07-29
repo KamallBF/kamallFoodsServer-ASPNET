@@ -145,7 +145,8 @@ public class Startup
             options.AddPolicy("CorsApi",
                 builder => builder.WithOrigins("http://localhost:3000", "https://kamall-foods.com",
                         "https://www.kamall-foods.com", "https://kamall-foods-panel.com",
-                        "https://www.kamall-foods-panel.com, https://feature.d8qtesa7y5ir9.amplifyapp.com")
+                        "https://www.kamall-foods-panel.com, https://feature.d8qtesa7y5ir9.amplifyapp.com",
+                        "http://localhost:4200")
                     .AllowAnyHeader().AllowCredentials().SetIsOriginAllowed(_ => true)
                     .WithMethods("GET", "PUT", "POST", "DELETE"));
         });
